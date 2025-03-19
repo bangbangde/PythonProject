@@ -1,0 +1,135 @@
+| PREPARED BY   | CHECKED BY   | APPROVED BY   |
+|:--------------|:-------------|:--------------|
+| WangXiaodong  | LiXiaobing   | LiXiaobing    |
+
+| Revision   | Unnamed: 0                                                               | Unnamed: 1                              | Change Item                        | Date       |
+|:-----------|:-------------------------------------------------------------------------|:----------------------------------------|:-----------------------------------|:-----------|
+| A00        | nan                                                                      | nan                                     | Initial Release                    | 2020-12-09 |
+| A01        | 1、1.1.5                                                                 | Efficiency:                             | Up to 93%/95% Update to 91.5%/94%; | 2021-01-20 |
+| nan        | 2、1.3.1 Over current protection:                                        | nan                                     | Main output 105%~150%Update to     | nan        |
+| nan        | 120%~160%,5 Vsb 110%~150%Update to 120%~200%                             | nan                                     | nan                                | nan        |
+| A02        | nan                                                                      | 1、 Increase 15V output specifications; | nan                                | 2021-03-15 |
+| nan        | nan                                                                      | 2、 Update mechanical dimension drawing | nan                                | nan        |
+| A03        | 3、 1、1.4.1 PS_ON: Low (0~0.8V) = ON                                    | nan                                     | Up to                              | 2021-05-06 |
+| nan        | nan                                                                      | Low (0~0.8V) or floating= ON;           | nan                                | nan        |
+| A04        | nan                                                                      | 1、Update 6.2 Mechanical specification  | nan                                | 2022-04-14 |
+| A05        | 2.2 Dielectric strength :Output to PE 500Vac 50Hz 1minute ≤10mAUpdate to | nan                                     | nan                                | 2023-02-16 |
+| nan        | nan                                                                      | 1500Vac 50Hz 1minute ≤10mA;             | nan                                | nan        |
+| A06        | nan                                                                      | Update 6.3.1 Cooling convection 300 W   | nan                                | 2023-03-02 |
+| A07        | nan                                                                      | 1、Update 3. Safety;                    | nan                                | 2024-03-01 |
+| nan        | nan                                                                      | 2、Update 4. EMC                        | nan                                | nan        |
+
+| No.    | Electrical characteristics        | MP300S                                      |
+|:-------|:----------------------------------|:--------------------------------------------|
+| 1.1.1  | Input voltage rang                | 85Vac to 264Vac                             |
+| 1.1.2  | Normal voltage                    | 100~240Vac                                  |
+| 1.1.3  | Frequency range                   | 47Hz--63Hz                                  |
+| 1.1.4  | Max input ac current(100Vac )     | 3.5A                                        |
+| nan    | Efficiency(115/230Vac, full load) | nan                                         |
+| 1.1.5  | nan                               | 91.5%/94%                                   |
+| nan    | Typ                               | nan                                         |
+| nan    | Power factor(100Vac~240Vac,       | nan                                         |
+| 1.1.6  | nan                               | 0.95                                        |
+| nan    | full load)                        | nan                                         |
+| 1.1.7  | Inrush current(240Vac)            | 50A                                         |
+| 1.1.8  | Power saving                      | 0.6W/230Vac(Remote off and no load on 5Vsb) |
+| 1.1.9  | Hold up time                      | >20ms 300W load                             |
+| nan    | Earth leakage current (NC/SFC)    | 0.15mA/0.3mA                                |
+| 1.1.10 | nan                               | nan                                         |
+| nan    | Touch current(NC/SFC)             | 0.1mA/0.2mA                                 |
+| 1.1.11 | Rated output power                | 300W@cool convection                        |
+| 1.1.12 | Input fuse                        | T5A/250Vac                                  |
+
+| Unnamed: 0   | Unnamed: 1                 | Unnamed: 2                                          | Unnamed: 3                                         | Unnamed: 4              | MP300S          | Unnamed: 5   | Unnamed: 6   | Unnamed: 7   |
+|:-------------|:---------------------------|:----------------------------------------------------|:---------------------------------------------------|:------------------------|:----------------|:-------------|:-------------|:-------------|
+| No.          | Electrical characteristics | nan                                                 | nan                                                | nan                     | nan             | nan          | nan          | nan          |
+| 1.2.1        | Main output voltage        | 12V                                                 | 15V                                                | 19V                     | 24V 28V         | 36V          | nan          | 48V          |
+| 1.2.2        | Output current             | 25.0A                                               | 20.0A                                              | 15.8A                   | 12.5A 10.8A     | 8.33A        | 6.25A        | nan          |
+| nan          | nan                        | nan                                                 | nan                                                | line regulation: ±0.5%; | nan             | nan          | nan          | nan          |
+| 1.2.3        | Voltage regulation         | nan                                                 | nan                                                | load regulation:±2%;    | nan             | nan          | nan          | nan          |
+| nan          | nan                        | nan                                                 | voltage regulation accuracy±2%                     | nan                     | nan             | nan          | nan          | nan          |
+| nan          | nan                        | nan                                                 | 12V-15V: 200mV, 19V - 28V: 280mV, 32V - 48V: 480mV | nan                     | nan             | nan          | nan          | nan          |
+| 1.2.4        | Output ripple &noise.      | nan                                                 | nan                                                | nan                     | nan             | nan          | nan          | nan          |
+| nan          | nan                        | ±5% of output voltage;step load: 5%-50% or 50-100%, | nan                                                | nan                     | nan             | nan          | nan          | nan          |
+| 1.2.5        | Output transient response. | nan                                                 | nan                                                | nan                     | slew rate 1A/us | nan          | nan          | nan          |
+
+| Unnamed: 0   | Unnamed: 1               | ≤2.0s@ 100Vac input, 25°C;   |
+|:-------------|:-------------------------|:-----------------------------|
+| 1.2.6        | Startup time             | nan                          |
+| nan          | Output overshoot during  | 5%                           |
+| 1.2.7        | nan                      | nan                          |
+| nan          | turn-on &turn-off        | nan                          |
+| 1.2.8        | Output voltage rise time | 5<Tr≤100ms                   |
+
+| No.    | Electrical characteristics   | MP300S                         |
+|:-------|:-----------------------------|:-------------------------------|
+| 1.2.9  | Standby output voltage       | 5V                             |
+| 1.2.10 | Output current               | 2A                             |
+| nan    | nan                          | line regulation: ±0.5%;        |
+| 1.2.11 | Voltage regulation           | load regulation:±2%;           |
+| nan    | nan                          | voltage regulation accuracy±5% |
+| 1.2.12 | Output ripple &noise.        | 2%                             |
+
+| Unnamed: 0   | Unnamed: 1                  | Unnamed: 2           | MP300S        | Unnamed: 3           |
+|:-------------|:----------------------------|:---------------------|:--------------|:---------------------|
+| No.          | Protection item             | nan                  | nan           | nan                  |
+| nan          | nan                         | Main output          | nan           | 5 Vsb                |
+| nan          | nan                         | 120%~160%            | nan           | 120%~200%            |
+| 1.3.1        | Over current protection     | nan                  | nan           | nan                  |
+| nan          | nan                         | hiccup,auto recovery | nan           | hiccup,auto recovery |
+| 1.3.2        | Short circuit protection    | hiccup,auto recovery | nan           | hiccup,auto recovery |
+| nan          | nan                         | 110%~150%            | nan           | /                    |
+| 1.3.3        | Output voltage protection   | nan                  | nan           | nan                  |
+| nan          | nan                         | latch off            | nan           | /                    |
+| nan          | nan                         | brown in             | brown out     | minimum hysteresis   |
+| 1.3.4        | Input brown in/out          | nan                  | nan           | nan                  |
+| nan          | nan                         | <=85Vac              | >=60Vac       | 5Vac                 |
+| 1.3.5        | Over temperature protection | nan                  | auto recovery | nan                  |
+
+| No.   | Electrical Characteristics   | MP300S                                         |
+|:------|:-----------------------------|:-----------------------------------------------|
+| 1.4.1 | PS_ON                        | Low (0~0.8V) or floating= ON, High(3~5V) = OFF |
+| 1.4.2 | 5VFAN                        | Fan powered                                    |
+| nan   | nan                          | Combined AC Fail and DC OK signal              |
+| 1.4.3 | Power good                   | nan                                            |
+| nan   | nan                          | Low(0~0.8V)= Fail, High(3~5.5V) = OK           |
+
+| DC500V 10 MΩ.Input to Output   |
+|:-------------------------------|
+| (at room temperature)          |
+| DC500V 10 MΩ.Input to PE       |
+| (at room temperature)          |
+| DC500V 10 MΩ.Output to PE      |
+| (at room temperature)          |
+
+| Input to Output   | 4000Vac 50Hz 1minute ≤10mA   |
+|:------------------|:-----------------------------|
+| Input to PE       | 1500Vac 50Hz 1minute ≤10mA   |
+| Output to PE      | 1500Vac 50Hz 1minute ≤10mA   |
+
+| Drop   | Time   | Standard   |
+|:-------|:-------|:-----------|
+| 0%Ut   | 10ms   | A          |
+| 0%Ut   | 20ms   | B          |
+| 70%Ut  | 500ms  | B          |
+| 0%Ut   | 5000ms | B          |
+
+| Unnamed: 0   |   PIN | Unnamed: 1   | Terminal model              | Matching terminals   |
+|:-------------|------:|:-------------|:----------------------------|:---------------------|
+| nan          |   nan | nan          | nan                         | and plastic shell    |
+| CN100        |     1 | PE           | VH-5ADW3(华富(嘉得电子))    | 华富:VH-5Y           |
+| nan          |     3 | N            | (Or equivalent)             | 华富:VH              |
+| nan          |     5 | L            | nan                         | (Or equivalent)      |
+| CN201        |     1 | VOUT+        | M4 OUTPUT TERMINAL          | nan                  |
+| CN202        |     1 | VOUT-        | M4 OUTPUT TERMINAL          | nan                  |
+| CN200        |     1 | PS_ON        | 胜蓝                        | 胜蓝:                |
+| nan          |     2 | Power        | (12002W00-2X3P-L-S1-23-HF)/ | 12002H00-2X3P-L      |
+| nan          |   nan | Good         | 加炜                        | 胜蓝:12002T0P-2E     |
+| nan          |     3 | DGND         | (A2006WV-2x3P-6T2-5eHK2.3)  | (Or equivalent)      |
+| nan          |   nan | nan          | (Or equivalent)             | nan                  |
+| nan          |     4 | NC           | nan                         | nan                  |
+| nan          |     5 | DGND         | nan                         | nan                  |
+| nan          |     6 | 5Vsb         | nan                         | nan                  |
+| CN203        |     1 | DGND         | XH-2A (华富(嘉得电子))      | 华富:XH-2Y           |
+| nan          |     2 | 5Vsb         | (Or equivalent)             | 华富:XH              |
+| nan          |   nan | nan          | nan                         | (Or equivalent)      |
