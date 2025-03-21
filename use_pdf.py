@@ -123,5 +123,7 @@ if __name__ == "__main__":
     filename = os.path.splitext(os.path.basename(input_pdf_path))[0]
     
     elements = extract_elements(input_pdf_path)
+    if not os.path.exists("output"):
+        os.makedirs("output")
     with open(f'output/{filename}.md', 'wb') as f:
             f.write(to_md(elements).encode())
