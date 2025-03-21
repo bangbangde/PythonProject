@@ -1,19 +1,32 @@
-| Unnamed: 0   |   PIN | Unnamed: 1   | Terminal model              | Matching terminals   |
-|:-------------|------:|:-------------|:----------------------------|:---------------------|
-|              |       |              |                             | and plastic shell    |
-| CN100        |     1 | PE           | VH-5ADW3(华富(嘉得电子))    | 华富:VH-5Y           |
-|              |     3 | N            | (Or equivalent)             | 华富:VH              |
-|              |     5 | L            |                             | (Or equivalent)      |
-| CN201        |     1 | VOUT+        | M4 OUTPUT TERMINAL          |                      |
-| CN202        |     1 | VOUT-        | M4 OUTPUT TERMINAL          |                      |
-| CN200        |     1 | PS_ON        | 胜蓝                        | 胜蓝:                |
-|              |     2 | Power        | (12002W00-2X3P-L-S1-23-HF)/ | 12002H00-2X3P-L      |
-|              |       | Good         | 加炜                        | 胜蓝:12002T0P-2E     |
-|              |     3 | DGND         | (A2006WV-2x3P-6T2-5eHK2.3)  | (Or equivalent)      |
-|              |       |              | (Or equivalent)             |                      |
-|              |     4 | NC           |                             |                      |
-|              |     5 | DGND         |                             |                      |
-|              |     6 | 5Vsb         |                             |                      |
-| CN203        |     1 | DGND         | XH-2A (华富(嘉得电子))      | 华富:XH-2Y           |
-|              |     2 | 5Vsb         | (Or equivalent)             | 华富:XH              |
-|              |       |              |                             | (Or equivalent)      |
+| Unnamed: 0   | Unnamed: 1               | ≤2.0s@ 100Vac input, 25°C;   |
+|:-------------|:-------------------------|:-----------------------------|
+| 1.2.6        | Startup time             |                              |
+|              | Output overshoot during  | 5%                           |
+| 1.2.7        |                          |                              |
+|              | turn-on &turn-off        |                              |
+| 1.2.8        | Output voltage rise time | 5<Tr≤100ms                   |
+
+| No.    | Electrical characteristics   | MP300S                         |
+|:-------|:-----------------------------|:-------------------------------|
+| 1.2.9  | Standby output voltage       | 5V                             |
+| 1.2.10 | Output current               | 2A                             |
+|        |                              | line regulation: ±0.5%;        |
+| 1.2.11 | Voltage regulation           | load regulation:±2%;           |
+|        |                              | voltage regulation accuracy±5% |
+| 1.2.12 | Output ripple &noise.        | 2%                             |
+
+| Unnamed: 0   | Unnamed: 1                  | Unnamed: 2           | MP300S        | Unnamed: 3           |
+|:-------------|:----------------------------|:---------------------|:--------------|:---------------------|
+| No.          | Protection item             |                      |               |                      |
+|              |                             | Main output          |               | 5 Vsb                |
+|              |                             | 120%~160%            |               | 120%~200%            |
+| 1.3.1        | Over current protection     |                      |               |                      |
+|              |                             | hiccup,auto recovery |               | hiccup,auto recovery |
+| 1.3.2        | Short circuit protection    | hiccup,auto recovery |               | hiccup,auto recovery |
+|              |                             | 110%~150%            |               | /                    |
+| 1.3.3        | Output voltage protection   |                      |               |                      |
+|              |                             | latch off            |               | /                    |
+|              |                             | brown in             | brown out     | minimum hysteresis   |
+| 1.3.4        | Input brown in/out          |                      |               |                      |
+|              |                             | <=85Vac              | >=60Vac       | 5Vac                 |
+| 1.3.5        | Over temperature protection |                      | auto recovery |                      |

@@ -2,33 +2,38 @@ Specification Document No.：
 
 Model：MP300S Issued Date : 2024-03-01
 
-|       |   PIN | None   | Terminalmodel               | Matchingterminals   |
-|       |       |        |                             | andplasticshell     |
-|:------|------:|:-------|:----------------------------|:--------------------|
-| CN100 |     1 | PE     | VH-5ADW3(华富(嘉得电子))    | 华富：VH-5Y         |
-|       |       |        | （Orequivalent）            | 华富：VH            |
-|       |       |        |                             | （Orequivalent）    |
-|       |     3 | N      |                             |                     |
-|       |     5 | L      |                             |                     |
-| CN201 |     1 | VOUT+  | M4OUTPUTTERMINAL            |                     |
-| CN202 |     1 | VOUT-  | M4OUTPUTTERMINAL            |                     |
-| CN200 |     1 | PS_ON  | 胜蓝                        | 胜蓝：              |
-|       |       |        | (12002W00-2X3P-L-S1-23-HF)/ | 12002H00-2X3P-L     |
-|       |       |        | 加炜                        | 胜蓝：12002T0P-2E   |
-|       |       |        | (A2006WV-2x3P-6T2-5eHK2.3)  | （Orequivalent）    |
-|       |       |        | （Orequivalent）            |                     |
-|       |     2 | Power  |                             |                     |
-|       |       | Good   |                             |                     |
-|       |     3 | DGND   |                             |                     |
-|       |     4 | NC     |                             |                     |
-|       |     5 | DGND   |                             |                     |
-|       |     6 | 5Vsb   |                             |                     |
-| CN203 |     1 | DGND   | XH-2A(华富(嘉得电子))       | 华富：XH-2Y         |
-|       |       |        | （Orequivalent）            | 华富：XH            |
-|       |       |        |                             | （Orequivalent）    |
-|       |     2 | 5Vsb   |                             |                     |
+| 1.2.6   | Startuptime           | ≤2.0s@100Vacinput,25℃；   |
+|:--------|:----------------------|:--------------------------|
+| 1.2.7   | Outputovershootduring | 5%                        |
+|         | turn-on&turn-off      |                           |
+| 1.2.8   | Outputvoltagerisetime | 5<Tr≤100ms                |
 
-Page 9 of 11
+| No.    | Electrical characteristics   | MP300S                         |
+|:-------|:-----------------------------|:-------------------------------|
+| 1.2.9  | Standbyoutputvoltage         | 5V                             |
+| 1.2.10 | Outputcurrent                | 2A                             |
+| 1.2.11 | Voltageregulation            | line regulation: ±0.5%;        |
+|        |                              | load regulation:±2%；          |
+|        |                              | voltage regulation accuracy±5% |
+| 1.2.12 | Outputripple&noise.          | 2%                             |
+
+1.3 Protection
+
+| No.   | Protection item           | MP300S               | None     | None                 | None              |
+|:------|:--------------------------|:---------------------|:---------|:---------------------|:------------------|
+|       |                           | Main output          |          | 5Vsb                 |                   |
+| 1.3.1 | Overcurrentprotection     | 120%~160%            |          | 120%~200%            |                   |
+|       |                           | hiccup，autorecovery |          | hiccup，autorecovery |                   |
+| 1.3.2 | Shortcircuitprotection    | hiccup，autorecovery |          | hiccup，autorecovery |                   |
+| 1.3.3 | Outputvoltageprotection   | 110%~150%            |          | /                    |                   |
+|       |                           | latchoff             |          | /                    |                   |
+| 1.3.4 | Inputbrownin/out          | brownin              | brownout |                      | minimumhysteresis |
+|       |                           | <=85Vac              | >=60Vac  |                      | 5Vac              |
+| 1.3.5 | Overtemperatureprotection | autorecovery         |          |                      |                   |
+
+1.4 Signals
+
+Page 5 of 11
 
 The copyright belongs to Megmeet. Any unauthorized use is prohibited.
 
